@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		B170B2371A35E0BB0060671A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B170B2361A35E0BB0060671A /* AppDelegate.swift */; };
 		B170B23A1A35E0BB0060671A /* Postkaartje.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B170B2381A35E0BB0060671A /* Postkaartje.xcdatamodeld */; };
-		B170B23C1A35E0BB0060671A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B170B23B1A35E0BB0060671A /* ViewController.swift */; };
+		B170B23C1A35E0BB0060671A /* KaartjeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B170B23B1A35E0BB0060671A /* KaartjeViewController.swift */; };
 		B170B23F1A35E0BB0060671A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B170B23D1A35E0BB0060671A /* Main.storyboard */; };
 		B170B2411A35E0BB0060671A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B170B2401A35E0BB0060671A /* Images.xcassets */; };
 		B170B2441A35E0BB0060671A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B170B2421A35E0BB0060671A /* LaunchScreen.xib */; };
 		B170B2501A35E0BC0060671A /* PostkaartjeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B170B24F1A35E0BC0060671A /* PostkaartjeTests.swift */; };
+		B170B25A1A35E1200060671A /* GroetenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B170B2591A35E1200060671A /* GroetenViewController.swift */; };
+		B170B25C1A35E22F0060671A /* sheep.png in Resources */ = {isa = PBXBuildFile; fileRef = B170B25B1A35E22F0060671A /* sheep.png */; };
+		B170B25E1A35E26E0060671A /* stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B170B25D1A35E26E0060671A /* stamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +34,16 @@
 		B170B2351A35E0BB0060671A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B170B2361A35E0BB0060671A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B170B2391A35E0BB0060671A /* Postkaartje.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Postkaartje.xcdatamodel; sourceTree = "<group>"; };
-		B170B23B1A35E0BB0060671A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B170B23B1A35E0BB0060671A /* KaartjeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaartjeViewController.swift; sourceTree = "<group>"; };
 		B170B23E1A35E0BB0060671A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B170B2401A35E0BB0060671A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B170B2431A35E0BB0060671A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B170B2491A35E0BB0060671A /* PostkaartjeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostkaartjeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B170B24E1A35E0BB0060671A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B170B24F1A35E0BC0060671A /* PostkaartjeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostkaartjeTests.swift; sourceTree = "<group>"; };
+		B170B2591A35E1200060671A /* GroetenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroetenViewController.swift; path = ../GroetenViewController.swift; sourceTree = "<group>"; };
+		B170B25B1A35E22F0060671A /* sheep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sheep.png; path = "../../../../Downloads/Icons Art/KidsGallery/sheep.png"; sourceTree = "<group>"; };
+		B170B25D1A35E26E0060671A /* stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = stamp.jpg; path = ../../../../Downloads/stamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				B170B2361A35E0BB0060671A /* AppDelegate.swift */,
-				B170B23B1A35E0BB0060671A /* ViewController.swift */,
+				B170B23B1A35E0BB0060671A /* KaartjeViewController.swift */,
+				B170B2591A35E1200060671A /* GroetenViewController.swift */,
 				B170B23D1A35E0BB0060671A /* Main.storyboard */,
 				B170B2401A35E0BB0060671A /* Images.xcassets */,
 				B170B2421A35E0BB0060671A /* LaunchScreen.xib */,
@@ -93,6 +100,8 @@
 		B170B2341A35E0BB0060671A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B170B25D1A35E26E0060671A /* stamp.jpg */,
+				B170B25B1A35E22F0060671A /* sheep.png */,
 				B170B2351A35E0BB0060671A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,7 +204,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B170B25E1A35E26E0060671A /* stamp.jpg in Resources */,
 				B170B23F1A35E0BB0060671A /* Main.storyboard in Resources */,
+				B170B25C1A35E22F0060671A /* sheep.png in Resources */,
 				B170B2441A35E0BB0060671A /* LaunchScreen.xib in Resources */,
 				B170B2411A35E0BB0060671A /* Images.xcassets in Resources */,
 			);
@@ -215,7 +226,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B170B23C1A35E0BB0060671A /* ViewController.swift in Sources */,
+				B170B23C1A35E0BB0060671A /* KaartjeViewController.swift in Sources */,
+				B170B25A1A35E1200060671A /* GroetenViewController.swift in Sources */,
 				B170B23A1A35E0BB0060671A /* Postkaartje.xcdatamodeld in Sources */,
 				B170B2371A35E0BB0060671A /* AppDelegate.swift in Sources */,
 			);

@@ -24,6 +24,7 @@ class GroetenViewController : UIViewController {
     
 
     @IBAction func sendcardTapped(sender: AnyObject) {
+        //knop
         self.groetenLabel.hidden = false
         self.groetenLabel.text = aanText.text
         self.aanText.text = ""
